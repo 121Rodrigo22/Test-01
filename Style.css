@@ -1,0 +1,53 @@
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+}
+body{
+    background-color: royalblue;
+    max-height: 100%;
+}
+
+h2{
+    padding: 10px;
+    text-align: center;
+}
+.corpo{
+    text-align: center;
+    width: 400px;
+}
+.footer{
+    background-color: blue;
+    color: aliceblue;
+    bottom: 0;
+    position: fixed;    
+    width: 100%;
+    text-align: center;
+}
+.principal{
+    flex-grow: 1;
+}
+.nav-bar{
+    background-color: blue;
+}
+.menu{
+    max-width: 600px;
+    list-style: none;
+    padding: 0;
+    background-color: blue;
+}
+.menu li{
+    display: inline-block;
+    padding: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.4s;
+    color: aliceblue;
+}
+.menu li:hover{
+    background-color: aqua;
+}
+.logo{
+    position: absolute;
+    cursor: pointer;
+}
